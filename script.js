@@ -1,6 +1,4 @@
 
-
-
         $(window).load(function() {
             let leadPos = $(".lead").offset().top;
             let leadHeight = $(".lead").height();
@@ -95,6 +93,7 @@
             });
         });
 
+        $(document).ready(function() {
 
         function hamburger() {
             document.getElementById('line1').classList.toggle('line_1');
@@ -163,3 +162,5 @@
         addEventListener('resize', function() {
             location.reload();
         });
+
+             });

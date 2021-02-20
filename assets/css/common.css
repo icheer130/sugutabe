@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+/* CSS Document */
+html {
+    font-size: 62.5%;
+    /* default's 16px * 62.5% = 10px */
+    width: 100%;
+    /* border's width is included in box-size */
+}
+
+body {
+    color: #5F830C;
+    /* RGB */
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 1.6em;
+    line-height: 2.4rem;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.4rem;
+    /* root-size's 10px X 2.4 =24px */
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.none {
+    display: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+
+}
+
+
+/*header*/
+
+
+
+/*製作手機版的漢堡MENU
+
+.open-button,
+.close-button {
+    display: none;
+}
+
+@media (max-width: 1160px) {
+    .open-button {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .open-button span,
+    .open-button span:before,
+    .open-button span:after {
+        position: absolute;
+        height: 3px;
+        width: 25px;
+        border-radius: 3px;
+        background-color: #777;
+        display: block;
+        content: "";
+    }
+
+    .open-button span:before {
+        bottom: -8px;
+    }
+
+    .open-button span:after {
+        bottom: -16px;
+    }
+
+    .close-button {
+        display: block;
+        position: absolute;
+        /* 指定position abosloute的話，父要素不能是stastic，要改其他的。
+        top: 0;
+        right: 0;
+        font-size: 20px;
+        color: #FFF;
+        padding: 20px;
+    }
+
+    .header__menu {
+        display: none;
+        z-index: 1000;
+        position: fixed;
+        /* flixed 是以整過畫面為基準，不滾動。 absolute會依父層位置而改變，且會混動。
+
+        top: 0;
+        left: 0;
+        background-color: #000;
+        width: 70%;
+        height: 100%;
+        padding-top: 67px;
+        box-shadow: 10px 10px 25px rgba(0, 0, 0, .4);
+    }
+
+    .header__menu ul li {
+        border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+    }
+
+    .header__menu ul li:first-child {
+        border-top: solid 1px rgba(255, 255, 255, 0.5);
+    }
+
+
+
+    .header__menu ul li a {
+        font-weight: 600;
+        line-height: 40px;
+        vertical-align: middle;
+        text-decoration: none;
+        color: #FFF;
+    }
+}
+
+*/
+
+
+/*製作PC版的header時，代表超MENU BAR的寬度畫面時就需變成PC版
+
+@media (min-width: 1160px) {
+    .header {
+        height: 83px;
+    }
+
+    .header-content-wrapper {
+        max-width: 1160px;
+        margin: 0 auto;
+        /*BLOCK置中
+        position: relative;
+    }
+
+    .header-content-wrapper h1 {
+        position: absolute;
+        left: 0;
+        font-size: 3.0rem;
+        top: 30px;
+    }
+
+    .header-content-wrapper nav {
+        display: block;
+        text-align: right;
+    }
+
+    .header-content-wrapper ul {
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        top: 30px;
+        right: 0;
+    }
+
+    .header-content-wrapper nav a {
+        text-decoration: none;
+        color: #FFF;
+    }
+
+    .header-content-wrapper ul li {
+
+        text-align: right;
+        padding-left: 40px;
+        font-weight: 500;
+        font-size: 2.2rem;
+    }
+}
+
+*/
+
+/* footer*/
+

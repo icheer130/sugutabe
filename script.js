@@ -51,7 +51,7 @@ let floatBoxTop = 0.25 * $(window).height();
 
 $(document).ready(function() {
     scrollStart = $("#fixPlace").offset().top;
-    scrollEnd = $('.transition').offset().top - 790;
+    scrollEnd = $('.transition').offset().top - 690;
 })
 
 

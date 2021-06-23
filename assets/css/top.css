@@ -536,7 +536,7 @@ body {
 
 
 
-@media (max-width:1023px) {
+@media (max-width:1024px) {
     .feature {
         padding: 75px 20px;
     }
@@ -614,7 +614,7 @@ body {
 
     .carrot {
         z-index: 1;
-        width: 35%;
+        width: 25%;
         bottom: 250px;
         left: unset;
         right: 0px;
@@ -707,7 +707,7 @@ body {
 
     .p-3,
     .p-3-2 {
-        width: 45%;
+        width: 55%;
         height: auto;
     }
 
@@ -1604,10 +1604,15 @@ body {
         height: 100px;
         width: 100%;
     }
+}
 
 
-
-    @media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hakusai {
+    z-index: 1;
+    width: 15%;
+    bottom: 45%;
+    left: 620px;}
 
         .feature {
             height: 300vh;
@@ -1625,24 +1630,30 @@ body {
         }
 
         .p-1 {
-            width: 45%;
+            width: 37%;
             height: auto;
         }
 
         .post__video-container.one {
-            width: 36vw;
-            height: 48vw;
-            right: 20%;
-            margin-top: 150px;
-        }
+    width: 36vw;
+    height: 27vw;
+    right: 30%;
+    margin-top: 150px;
+}
 
         .p-2 {
-            width: 66%;
+            width: 26%;
             height: auto
         }
 
+        .post__video-container video {
+            height: 101%;
+        }
+
         .post__video-container.two {
-            margin-top: 75px;
+            margin-top: 32px;
+            margin-left: 272px;
+
             height: 48vw;
             width: 36vw;
         }
@@ -1670,4 +1681,49 @@ body {
         right: unset;
     }
 
+
+@media (min-width: 1910px) {
+
+    .p-3, .p-3-2 {
+        width: 55%;
+    }
+
+.feature__script {
+    top: 90px;
+}
+    .lead__description p {
+
+        font-size: 2.4rem
+    }
+
+    .feature__description__text {
+        padding-top: 12vw;
+    }
+
+    .lead {
+
+        padding : 220px 0;
+    }
+
+    .post__video-container.one{
+
+            right: 24%; 
+            top: 24%;
+    }
+ }
+
+  @media (min-width: 1024px) and (max-width: 1439px) {
+
+    .lead__description {
+            width: 495px
+    }
+.lead__illustration img {
+            width: 75%
+
+}
+
+.lead__description h2 {
+
+    line-height: 166%;
+}
 }

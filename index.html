@@ -391,7 +391,7 @@
                 $(window).on("scroll resize", function() {
                     var w = $(window).width();
                     var x = 1024;
-                    if (w >= x) {
+                    if (w > x) {
                         var pos = $("#fixPlace").offset();
                         $('.post').each(function() {
                             if (pos.top + 300 >= $(this).offset().top && pos.top <= $(this).next().offset().top) {
@@ -428,7 +428,7 @@
 
         $(document).ready(function() {
             scrollStart = $("#fixPlace").offset().top;
-            scrollEnd = $('.transition').offset().top - 790;
+            scrollEnd = 4*$(window).height();
         })
 
 

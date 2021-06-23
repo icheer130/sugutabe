@@ -1608,6 +1608,11 @@ body {
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+    .feature__script {
+            left: 69vw;
+    width: 27%;
+}
     .hakusai {
     z-index: 1;
     width: 15%;
